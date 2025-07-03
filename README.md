@@ -20,6 +20,7 @@ atama (=), toplama atama (+=), çıkarma atama (-=), çarpma atama (*=), bölme 
 özellikleri ‘private’ olmalıdır. “Matrix” sınıflara ait ‘size_t’ tipinden “row”, “col” ve 
 “Complex” tipinden “element” adında nitelikleri ‘private’ olmalıdır. Bu sınıflar üzerinde 
 “Complex” sınıfındaki gibi aşağıdaki operatörler aşırı yüklenecektir:
+
 +(Toplama): operator+ 
 Matrix/Vector nesnesini elemanlarını toplayan operatör
 
