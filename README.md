@@ -24,10 +24,10 @@ atama (=), toplama atama (+=), çıkarma atama (-=), çarpma atama (*=), bölme 
 +(Toplama): operator+ 
 Matrix/Vector nesnesini elemanlarını toplayan operatör
 
- (Çıkarma): operator-
+ -(Çıkarma): operator-
 Matrix/Vector nesnesini elemanlarını çıkaran operatör
 
- (Çarpma): operator* 
+ *(Çarpma): operator* 
 Eğer Vector nesnesi ise iç çarpım (dot product), Matrix nesnesi ise matris çarpımı gerçekleştiren operatör
 
 = (Atama): operator= 
@@ -45,7 +45,7 @@ Eğer Vector nesnesi ise iç çarpım (dot product), Matrix nesnesi ise matris �
 == (Eşitlik): operator== 
 İki Matrix/Vector nesnelerinin eşit olup olmadıklarını kontrol eden operatör
 
-a. “Matrix” sınıfının, matrisin transpozunu hesaplayan “transpose” ve determinantı 
+ a. “Matrix” sınıfının, matrisin transpozunu hesaplayan “transpose” ve determinantı 
 hesaplayan “determinant” metotlarını gerçekleyin.
 
 4. “Matrix” sınıfından türetilecek “SquareMatrix”, “IdentityMatrix” ve “TriangleMatrix” 
