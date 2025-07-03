@@ -24,10 +24,10 @@ atama (=), toplama atama (+=), çıkarma atama (-=), çarpma atama (*=), bölme 
 +(Toplama): operator+ 
 Matrix/Vector nesnesini elemanlarını toplayan operatör
 
-- (Çıkarma): operator-
+ (Çıkarma): operator-
 Matrix/Vector nesnesini elemanlarını çıkaran operatör
 
-* (Çarpma): operator* 
+ (Çarpma): operator* 
 Eğer Vector nesnesi ise iç çarpım (dot product), Matrix nesnesi ise matris çarpımı gerçekleştiren operatör
 
 = (Atama): operator= 
