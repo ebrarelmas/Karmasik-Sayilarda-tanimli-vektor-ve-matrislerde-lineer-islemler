@@ -21,21 +21,29 @@ atama (=), toplama atama (+=), çıkarma atama (-=), çarpma atama (*=), bölme 
 “Complex” tipinden “element” adında nitelikleri ‘private’ olmalıdır. Bu sınıflar üzerinde 
 “Complex” sınıfındaki gibi aşağıdaki operatörler aşırı yüklenecektir:
 +(Toplama): operator+ 
-Matrix/Vector nesnesini elemanlarını toplayan operatör 
+Matrix/Vector nesnesini elemanlarını toplayan operatör
+
 - (Çıkarma): operator-
 Matrix/Vector nesnesini elemanlarını çıkaran operatör
+
 * (Çarpma): operator* 
-Eğer Vector nesnesi ise iç çarpım (dot product), Matrix nesnesi ise matris çarpımı gerçekleştiren operatör 
+Eğer Vector nesnesi ise iç çarpım (dot product), Matrix nesnesi ise matris çarpımı gerçekleştiren operatör
+
 = (Atama): operator= 
 Bir Matrix/Vector nesnesini başka bir Matrix/Vector nesnesine atayan operatör 
+
 += (Toplama atama): operator+= 
 Matrix/Vector nesnesini elemanlarını toplayıp atama yapan operatör
+
 -= (Çıkarma atama): operator-= 
 Matrix/Vector nesnesini elemanlarını çıkarıp atama yapan operatör 
+
 *= (Çarpma atama): operator*= 
 Eğer Vector nesnesi ise iç çarpım (dot product), Matrix nesnesi ise matris çarpımı gerçekleştiren operatör (bu işlem ancak matrisler kare ise gerçekleştirilebilir) 
+
 == (Eşitlik): operator== 
 İki Matrix/Vector nesnelerinin eşit olup olmadıklarını kontrol eden operatör
+
 a. “Matrix” sınıfının, matrisin transpozunu hesaplayan “transpose” ve determinantı 
 hesaplayan “determinant” metotlarını gerçekleyin.
 
